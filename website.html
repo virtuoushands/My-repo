@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website|interface</title>
+	<style>
+		*
+		{
+			margin: 0;
+			padding:0;
+		}
+		body{ font-family: verdana}
+
+
+		.container
+		{
+		/* border: 1px solid blue;*/
+		 width: 90%;
+		 height: 1000px;
+		 margin: 10px auto;
+		 padding: 10px;
+		 position: relative;
+		 background-image: linear-gradient(to right, #6666ff, #00bfff)
+		}
+
+		.contents1
+		{
+		  /*border: 1px solid blue;*/
+		  background-color: #003763;
+		  width: 20%;
+		  height: 930px;
+		  position: absolute;
+		  left: 10px;
+		  bottom: 0;
+		}
+
+		.header1
+		{
+			/*border: 1px solid blue;*/
+			width: 100%;
+			height: 50px;
+			background-color: #000033;
+			position: absolute;
+			top: 0px;
+
+
+		}
+
+		.wrap 
+		{
+			font-family: arial;
+			font-size: 18px;
+			color: white;
+			position: absolute;
+			left: 45px;
+			top:17px;	
+		}
+
+
+		.logo1
+		{
+			height: 25px;
+			width: 25px;
+			background: url(images/square.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 14px;
+			left: 10px;
+		}
+
+		.logo2
+			{
+			height: 25px;
+			width: 25px;
+			background: url(images/menu.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 14px;
+			right: 10px;
+		}
+
+		.nav
+		{
+			 font-family: arial;
+			font-size: 14px;
+			font-weight: lighter;
+			color: #8c8c8c;
+			position: absolute;
+			left: 25px;
+			top: 160px;
+		}
+
+		.nav1
+		{
+			position: absolute;
+			top: 200px;
+			left: 50px;
+
+		}
+
+		.nav1 li
+		{
+			list-style-type: none;
+		}
+
+		.nav1 a
+		{
+			color: #8c8c8c;
+			font-size: 14px;
+			display: block;
+			text-decoration: none;
+			padding: 10px;
+
+		}
+
+			.nav1 a:hover
+		{
+			color: white;
+			font-size: 15px;
+			
+	
+		}
+
+
+		.logo-a
+		{
+			height: 15px;
+			width: 15px;
+			background: url(images/logo1.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 210px;
+			left: 25px;
+		}
+
+		.logo-b
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/page.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 250px;
+			left: 25px;
+		}
+
+		
+		.plus1
+
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/plus.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 250px;
+			left: 230px;
+		}
+
+
+
+		.logo-c
+		{
+			height: 15px;
+			width: 15px;
+			background: url(images/page.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 290px;
+			left: 28px;
+		}
+
+
+
+		.plus2
+
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/plus.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 290px;
+			left: 230px;
+		}
+
+
+		.logo-d
+
+			{
+			height: 15px;
+			width: 15px;
+			background: url(images/charts.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 320px;
+			left: 30px;
+			}
+
+
+		.plus3
+
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/plus.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 318px;
+			left: 230px;
+		}
+
+		.apppv
+		{
+			font-family: arial;
+			font-size: 14px;
+			font-weight: lighter;
+			color: white;
+			position: absolute;
+			left: 45px;
+			top: 360px;
+		}
+
+
+			.nav2
+		{
+			position: absolute;
+			top: 400px;
+			left: 50px;
+
+		}
+
+		.nav2 li
+		{
+			list-style-type: none;
+		}
+
+		.nav2 a
+		{
+			color: #8c8c8c;
+			font-size: 14px;
+			display: block;
+			text-decoration: none;
+			padding: 10px;
+
+		}
+
+			.nav2 a:hover
+		{
+			color: white;
+			font-size: 15px;		
+		}
+
+		.logo-e
+		{
+			height: 15px;
+			width: 15px;
+			background: url(images/prac15.png)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 410px;
+			left: 40px;
+		}
+
+
+		.plus4
+
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/plus.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 410px;
+			left: 230px;
+		}
+
+		.logo-f
+
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/File1.png)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 450px;
+			left: 40px;
+		}
+
+
+			.logo-g
+
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/prac9.png)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 500px;
+			left: 40px;
+		}
+
+
+			.logo-h
+
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/chats.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 550px;
+			left: 40px;
+		}
+		
+			.logo-i
+
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/logo1.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 570px;
+			left: 40px;
+		}
+		
+
+			.logo-j
+
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/contacts.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 600px;
+			left: 40px;
+		}
+		
+			.logo-k
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/music.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 630px;
+			left: 40px;
+		}
+		
+			.logo-l
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/note.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 670px;
+			left: 40px;
+		}
+
+
+			.logo-m
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/mail.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 710px;
+			left: 40px;
+		}
+		
+
+
+			.logo-n
+		{
+		 	height: 15px;
+			width: 15px;
+			background: url(images/Calendar.jpg)no-repeat center;
+			background-size: cover;
+			position: absolute;
+			top: 740px;
+			left: 40px;
+		}
+
+
+
+
+			.nav3
+		{
+			position: absolute;
+			top: 830px;
+			left: 50px;
+
+		}
+
+		.nav3 li
+		{
+			list-style-type: none;
+		}
+
+		.nav3 a
+		{
+			color: #8c8c8c;
+			font-size: 14px;
+			display: block;
+			text-decoration: none;
+			padding: 10px;
+
+		}
+
+			.nav3 a:hover
+		{
+			color: white;
+			font-size: 15px;		
+		}
+		
+		.pgview
+		{
+			font-family: arial;
+			font-size: 14px;
+			font-weight: lighter;
+			color: white;
+			position: absolute;
+			left: 45px;
+			top: 800px;
+		}
+
+
+
+
+		.header2
+		{
+			height: 40px;
+			width: 78%;
+			position: absolute;
+			top: 95px;
+			right: 15px;
+			background-color: white;
+		}
+
+		.chat
+			{
+			width: 15px;
+			height:10px;
+			padding-top: 15px;
+			padding-right: 10px;
+			position: absolute;
+			top: 100px;
+			bottom: 20px;
+			display: block;
+			right: 20px;
+			background: url(prac8.png) no-repeat center;
+			background-size: cover;
+			}
+
+
+			.not
+				{
+				width: 15px;
+				height:10px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 100px;
+				bottom: 20px;
+				display: block;
+				right: 70px;
+				background: url(prac3.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+				.search
+				{
+				width: 20px;
+				height:10px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 100px;
+				bottom: 20px;
+				display: block;
+				right: 100px;
+				background: url(images/search.jpg) no-repeat center;
+				background-size: cover;
+				}
+		
+
+				.menu
+				{
+				width: 20px;
+				height:5px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 105px;
+				display: block;
+				left: 350px;
+				background: url(prac5.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+			.header4
+				{
+				border: 1px solid #ccc;	
+				height: 885px;
+				width: 18%;
+				position: absolute;
+				top: 145px;
+				right: 100px;
+				background-color: #D3D3D3;
+				}
+
+				.thumb
+				{
+				font-family: georgia;
+				font-size: 20px;
+				font-weight: lighter;
+				color: solid #8c8c8c;
+				position: absolute;
+				right: 160px;
+				top: 40px;
+				}
+
+				.pic1
+				{
+				width: 15px;
+				height:10px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 40px;
+				bottom: 20px;
+				display: block;
+				right: 275px;
+				background: url(images/pinkfile.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+
+				.detail
+				{
+
+				font-family: georgia;
+				font-size: 18px;
+				font-weight: lighter;
+				color:  #8c8c8c;
+				word-spacing: 4px;
+				position: absolute;
+				right: 200px;
+				top: 75px;
+				border-bottom: 2px solid hotpink; width:78px;
+				}
+
+
+				.act
+				{
+
+				font-family: georgia;
+				font-size: 18px;
+				font-weight: lighter;
+				color:  #8c8c8c;
+				word-spacing: 4px;
+				position: absolute;
+				right: 35px;
+				top: 75px;
+				border-bottom: 2px solid  #ccc; width:150px;
+				}
+
+				.pic2
+				{
+				 width: 220px;
+				height:180px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 130px;
+				bottom: 20px;
+				display: block;
+				right: 20px;
+				background: url(images/deer.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+				.avail
+				{
+				font-family: georgia;
+				font-size: 18px;
+				font-weight: lighter;
+				color:  #8c8c8c;
+				word-spacing: 2px;
+				position: absolute;
+				right:0px;
+				top: 350px;
+				border-bottom: 2px solid  #ccc; width:275px;
+				padding-bottom: 15px;
+				padding-left: 40px;
+				}
+
+				.on
+				{
+				 width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 350px;
+				bottom: 120px;
+				display: block;
+				right: 280px;
+				background: url(images/on.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+				.header4 li
+				{
+					list-style-type: none;
+				}
+
+				.li
+				{
+				color: #8c8c8c;
+				font-size: 14px;
+				display: block;
+				text-decoration: none;
+				word-spacing: 5px;
+				padding: 10px;
+				border-bottom: 2px solid  #ccc; width:275px;
+				padding-bottom: 15px;
+				padding-right: 10px;
+				position:absolute;
+				top: 390px;
+				right: 40px;
+				}
+
+				.pen
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 335px;
+				display: block;
+				right: 20px;
+				background: url(images/pen.jpg) no-repeat center;
+				background-size: cover;	
+				}
+
+				.add
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: lighter;
+				color:  #8c8c8c;
+				position: absolute;
+				right: 185px;
+				top: 530px;
+				}
+
+
+				.header5
+
+				{
+				border: 1px solid #00bfff;	
+				height: 130px;
+				width: 60%;
+				position: absolute;
+				top: 138px;
+				left:340px;
+				background-color:#00bfff;
+				}
+
+
+
+				.menu3
+				{
+				width: 20px;
+				height:5px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 160px;
+				display: block;
+				left: 390px;
+				background: url(prac5.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+				.search2
+				{
+				width: 20px;
+				height:5px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 180px;
+				display: block;
+				right: 450px;
+				background: url(images/search.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+				.menu4
+				{
+				width: 20px;
+				height:5px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 180px;
+				display: block;
+				right: 380px;
+				background: url(prac5.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+				.avatar1
+				{
+				width: 60px;
+				height: 60px;
+				position: absolute;
+				top: 240px;
+				left: 365px;
+				display: block;
+				background: url(images/avatar1.jpg)no-repeat;
+				background-size: cover;
+				border-radius: 99%;
+				}
+
+
+
+				.drive
+				{
+				font-family: georgia;
+				font-size: 19px;
+				font-weight: lighter;
+				color:white;
+				position: absolute;
+				left: 445px;
+				top: 210px;
+				}
+
+
+
+				.header3
+				{
+				border: 1px solid #ccc;	
+				height: 885px;
+				width: 60%;
+				position: absolute;
+				top: 135px;
+				left: 340px;
+				background-color: #D3D3D3;
+				}
+
+
+
+				.folders
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: lighter;
+				color:#778899;
+				position: absolute;
+				left: 460px;
+				top: 350px;
+				}
+
+
+				.box1
+				{	
+				width: 15px;
+				height:5px;
+				border: 1px solid #ccc;
+			    width:50px;
+			    height: 35px;
+				position: absolute;
+				top: 380px;
+				bottom: 25px;
+				display: block;
+				left: 450px;
+				background-size: cover;	
+				}
+
+				.ficon1
+				{
+				width: 20px;
+				height:5px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 390px;
+				bottom: 25px;
+				display: block;
+				left: 460px;
+				background: url(images/file1.png) no-repeat center;
+				background-size: cover;
+				}
+
+				.box2
+				{
+				width: 15px;
+				height:5px;
+				border: 1px solid #ccc;
+			    width:180px;
+			    height: 35px;
+				position: absolute;
+				top: 380px;
+				bottom: 25px;
+				display: block;
+				left: 500px;
+				background-color: white;
+				background-size: cover;	
+				}
+
+
+				.column
+				{
+			    width: 10px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 390px;
+				bottom: 25px;
+				display: block;
+				left: 660px;
+				background: url(images/column.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+				.ada
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: lighter;
+				color: #778899;
+				position: absolute;
+				left: 510px;
+				top: 390px;
+				}
+
+
+				.box3
+				{	
+				width: 15px;
+				height:5px;
+				border: 1px solid #ccc;
+			    width:50px;
+			    height: 35px;
+				position: absolute;
+				top: 380px;
+				display: block;
+				left: 730px;
+				background-size: cover;	
+				}
+
+				.ficon2
+				{
+				width: 20px;
+				height:5px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 390px;
+				display: block;
+				left: 740px;
+				background: url(images/file1.png) no-repeat center;
+				background-size: cover;
+				}
+
+				.box4
+				{
+				width: 15px;
+				height:5px;
+				border: 1px solid #ccc;
+			    width:200px;
+			    height: 35px;
+				position: absolute;
+				top: 380px;
+				bottom: 25px;
+				display: block;
+				left: 780px;
+				background-color: white;
+				background-size: cover;	
+				}
+
+
+				.column2
+				{
+			    width: 10px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 390px;
+				display: block;
+				left: 950px;
+				background: url(images/column.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+				.cd
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: lighter;
+				color: #778899;
+				position: absolute;
+				left: 800px;
+				top: 390px;
+				}
+
+				.box5
+				{	
+				width: 15px;
+				height:5px;
+				border: 1px solid #ccc;
+			    width:50px;
+			    height: 35px;
+				position: absolute;
+				top: 380px;
+				bottom: 25px;
+				display: block;
+				left: 1030px;
+				background-size: cover;	
+				}
+
+				.ficon3
+				{
+				width: 20px;
+				height:5px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 390px;
+				bottom: 25px;
+				display: block;
+				left: 1040px;
+				background: url(images/file1.png) no-repeat center;
+				background-size: cover;
+				}
+
+				.box6
+				{
+				width: 15px;
+				height:5px;
+				border: 1px solid #ccc;
+			    width:160px;
+			    height: 35px;
+				position: absolute;
+				top: 380px;
+				bottom: 25px;
+				display: block;
+				right: 400px;
+				background-color: white;
+				background-size: cover;	
+				}
+
+
+				.column3
+				{
+			    width: 10px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 390px;
+				bottom: 25px;
+				display: block;
+				right: 410px;
+				background: url(images/column.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+				.mu
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: lighter;
+				color: #778899;
+				position: absolute;
+				right: 490px;
+				top: 390px;
+				}
+
+
+				.files
+				{
+				font-family: georgia;
+				font-size: 19px;
+				font-weight: lighter;
+				color: #778899;
+				position: absolute;
+				left: 450px;
+				top: 450px;
+				}
+
+				.pic3
+				{
+				 width: 160px;
+				height:160px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 495px;
+				display: block;
+				left: 400px;
+				background: url(images/deer.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+				.box-a
+				{
+				width: 80px;
+				height:8px;
+				border: 1px solid #ccc;
+			    width:90px;
+			    height: 35px;
+				position: absolute;
+				top: 680px;
+				display: block;
+				left: 400px;
+				background-color:#00bfff;
+				background-size: cover;		
+				}
+
+
+				.img
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				bottom: 310px;
+				display: block;
+				left: 402px;
+				background: url(images/img.png) no-repeat center;
+				background-size: cover;
+				}
+				
+				.thum2
+				{
+				font-family: georgia;
+				font-size: 10px;
+				font-weight: bold; 
+				color:  white;
+				position: absolute;
+				left: 430px;
+				bottom: 310px;
+				}
+
+				.pic4
+				{
+				 width: 160px;
+				height:160px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 495px;
+				bottom: 20px;
+				display: block;
+				right: 850px;
+				background: url(images/rock.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+				
+
+				.pic5
+				{
+				 width: 160px;
+				height:160px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 495px;
+				bottom: 20px;
+				display: block;
+				right: 650px;
+				background: url(images/camera.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+
+				.pic6
+				{
+				 width: 160px;
+				height:160px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 495px;
+				display: block;
+				right: 430px;
+				background: url(images/hippo.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+				.img
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				bottom: 310px;
+				display: block;
+				right: 350px;
+				background: url(images/share9.jpg) no-repeat center;
+				background-size: cover
+				}
+				
+				.thum2
+				{
+				font-family: georgia;
+				font-size: 10px;
+				font-weight: bold; 
+				color:  #ccc;
+				position: absolute;
+				right: 300px;
+				bottom: 310px;
+				}
+
+
+				.pic7
+				{
+				 width: 160px;
+				height:160px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				bottom: 90px;
+				display: block;
+				left:400px;
+				background: url(images/veep.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+				.pic8
+				{
+				 width: 160px;
+				height:160px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 750px;
+				bottom: 20px;
+				display: block;
+				right:850px;
+				background: url(images/forest.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+
+				.pic9
+				{
+				 width: 160px;
+				height:160px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 750px;
+				bottom: 20px;
+				display: block;
+				right:650px;
+				background: url(images/dog.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+				.pic10
+				{
+				 width: 160px;
+				height:160px;
+				padding-top: 15px;
+				padding-right: 10px;
+				position: absolute;
+				top: 750px;
+				bottom: 20px;
+				display: block;
+				right:430px;
+				background: url(images/bridge.jpg) no-repeat center;
+				background-size: cover;
+				}
+
+			
+
+				.box7
+				{
+				border: 1px solid white;
+				width: 15%;
+				height:350px;
+				position: absolute;
+				bottom: 20px;
+				display: block;
+				left: 450px;
+				background-color: white;
+				background-size: cover;
+				}
+
+
+
+				.share
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 330px;
+				display: block;
+				left: 470px;
+				background: url(images/share.jpg) no-repeat center;
+				background-size: cover;	
+				}
+
+				.txta
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: bold;
+				color: #ccc;
+				position: absolute;
+				left: 500px;
+				bottom: 330px;
+				}
+
+				.share1
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 300px;
+				display: block;
+				left: 470px;
+				background: url(images/share2.jpg) no-repeat center;
+				background-size: cover;	
+				}
+
+
+
+				.txtb
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: bold;
+				color: #ccc;
+				position: absolute;
+				left: 500px;
+				bottom: 300px;
+				}
+
+				.rec
+				{
+				/*border: 1px solid #ccc;*/
+			    width:250px;
+			    height: 35px;
+				position: absolute;
+				bottom: 250px;
+				display: block;
+				left: 450px;
+				background-color: hotpink;
+				background-size: cover;		
+				}
+
+				.share3
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 255px;
+				display: block;
+				left: 666px;
+				background: url(images/shareb.jpg) no-repeat center;
+				background-size: cover;	
+				}
+
+				.txtc
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: bolder;
+				color: white;
+				position: absolute;
+				left: 500px;
+				bottom: 255px;
+				}
+
+				.share4
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 255px;
+				display: block;
+				left: 470px;
+				background: url(images/share3.jpg) no-repeat center;
+				background-size: cover;	
+				}
+				
+				.share5
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 210px;
+				display: block;
+				left: 470px;
+				background: url(images/sharec.jpg) no-repeat center;
+				background-size: cover;	
+				}
+
+
+				.txtd
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: bolder;
+				color: #ccc;
+				position: absolute;
+				left: 500px;
+				bottom: 210px;
+				}
+
+
+				.share6
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 170px;
+				display: block;
+				left: 470px;
+				background: url(images/share6.jpg) no-repeat center;
+				background-size: cover;	
+				}
+
+
+				.txte
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: bolder;
+				color: #ccc;
+				position: absolute;
+				left: 500px;
+				bottom: 180px;
+				}
+
+
+				.share7
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 140px;
+				display: block;
+				left: 470px;
+				background: url(images/share7.jpg) no-repeat center;
+				background-size: cover;	
+				}
+
+				.txtf
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: bolder;
+				color: #ccc;
+				position: absolute;
+				left: 500px;
+				bottom: 140px;
+				}
+
+
+				.share8
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 100px;
+				display: block;
+				left: 470px;
+				background: url(images/share8.jpg) no-repeat center;
+				background-size: cover;	
+				}
+
+				.txtg
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: bolder;
+				color: #ccc;
+				position: absolute;
+				left: 500px;
+				bottom: 100px;
+				}
+
+				.share9
+				{
+				width: 15px;
+				height:8px;
+				padding-top: 15px;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 50px;
+				display: block;
+				left: 470px;
+				background: url(images/share10.jpg) no-repeat center;
+				background-size: cover;	
+				}
+
+				.txth
+				{
+				font-family: georgia;
+				font-size: 16px;
+				font-weight: bolder;
+				color: #ccc;
+				position: absolute;
+				left: 500px;
+				bottom: 50px;
+				
+
+
+				
+
+
+
+	 </style>
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="contents1">
+
+			<div class="header1"></div>
+				<div class="wrap">MaterialWrap</div>
+				<div class="logo1"></div>
+				<div class="logo2"></div>
+			</div>
+
+		<div class="nav"><p>NAVIGATION</p></div>
+		<div class="nav1">
+				<ul>
+					<li><a href="#">Dashboard</a></li>
+					<li><a href="#">page Layouts</a></li>
+					<li><a href="#">cards</a></li>
+					<li><a href="#">Charts</a></li>
+				</ul>
+				</div>
+
+				<div class="logo-a"></div>
+				<div class="plus1"></div>
+				<div class="logo-b"></div>
+				<div class="plus2"></div>
+				<div class="logo-c"></div>
+				<div class="logo-d"></div>
+				<div class="plus3"></div>
+
+			<div class="apppv">APPVIEWS</div>
+			<div class="nav2">
+					<ul>
+						<li><a href="#">E-Commerce</a>
+						<li><a href="#">File Manager</a></li>
+						<li><a href="#">Job Board</a></li>
+						<li><a href="#">Chat</a></li>
+						<li><a href="#">Taskboard</a></li>
+						<li><a href="#">Contacts</a></li>
+						<li><a href="#">Music</a></li>
+						<li><a href="#">Notes</a></li>
+						<li><a href="#">Mail</a></li>
+						<li><a href="#">Calendar</a></li>
+					</ul>
+					</div>
+
+					<div class="logo-e"></div>
+					<div class="plus4"></div>
+					<div class="logo-f"></div>
+					<div class="logo-g"></div>
+					<div class="logo-h"></div>
+					<div class="logo-i"></div>
+					<div class="logo-j"></div>
+					<div class="logo-k"></div>
+					<div class="logo-l"></div>
+					<div class="logo-m"></div>
+					<div class="logo-n"></div>
+
+			<div class="pgview">PAGE VIEWS</div>
+			<div class="nav3">
+					<ul>
+						<li><a href="#">Profile</a>
+						<li><a href="#">invoice</a></li>
+						<li><a href="#">Timeline</a></li>
+						<li><a href="#">Locations</a></li>
+						<li><a href="#">Pricing Tables</a></li>
+					</ul>
+					</div>
+
+			<div class="header2"></div>
+					<div class="chat"></div>
+					<div class="not"></div>
+					<div class="search"></div>
+					<div class="menu"></div>
+			
+
+			<div class="header3"></div>
+				<div class="header5"></div>
+					<div class="avatar1"></div>
+				<div class="menu4"></div>
+				<div class="search2"></div>
+					<div class="menu3"></div>
+				<div class="drive">My Drive > Projects
+				</div>
+				
+				
+				
+					<div class="folders">Folders</div>
+				<div class="box1"></div>
+				<div class="box2"></div>
+					<div class="column"></div>
+					<div class="ficon1"></div>
+					<div class="ada">App Design Assets</div>
+				<div class="box3"></div>
+					<div class="ficon2"></div>
+				<div class="box4"></div>
+				<div class="cd">Clients Documents</div>
+					<div class="column2"></div>
+				<div class="box5"></div>
+					<div class="ficon3"></div>
+				<div class="box6"></div>
+				<div class="mu">Mockups</div>
+					<div class="column3"></div>
+				<div class="files">Files</div>
+				<div class="pic3"></div>
+				<div class="box-a"></div>
+					<div class="img"></div>
+					<div class="thum2">thumb-1.jpg</div>	
+				<div class="pic4"></div>
+				<div class="pic5"></div>
+				<div class="pic6"></div>
+				<div class="thum2">thumb4.jpg</div>
+				<div class="img"></div>
+				<div class="pic7"></div>
+				<div class="box7"></div>
+				<div class="pic8"></div>	
+				<div class="pic9"></div>
+				<div class="pic10"></div>
+				<div class="box7"></div>
+					<div class="share"></div>
+					<div class="txta">Share...</div>
+					<div class="share1"></div>
+					<div class="txtb">Get Shareable link</div>
+					<div class="rec"></div>
+					<div class="share3"></div>
+					<div class="txtc">Move to...</div>
+					<div class="share4"></div>
+					<div class="share5"></div>
+					<div class="txtd">Add Star</div>
+					<div class="share6"></div>
+					<div class="txte">Change color</div>
+					<div class="share7"></div>
+					<div class="txtf">Rename</div>
+					<div class="share8"></div>
+					<div class="txtg">Download</div>
+					<div class="share9"></div>
+					<div class="txth">Remove</div>
+				</div>
+			
+			<div class="header4">
+				<div class="thumb">thumb-1.jpg</div>
+					<div class="pic1"></div>
+					<div class=" detail"> Details </div>
+					<div class="act"> Activity </div>
+					<div class="pic2"></div>
+					<div class="pen"></div>
+					<div class="add">Add a description</div>
+				<div class="avail">Available Online</div>
+					<div class="on"></div>
+					<div class="li">
+				   <ul>
+					<li>Type   Image</li>
+					<li>Location    Projects</li>
+					<li>Modified   Feb 9, 2017</li>
+					<li>Opened   Feb 11, 2017</li>
+					<li>Created  Feb 3, 2017</li>
+				</ul>
+
+				
+			
+
+</div>
+
+</body>
+</html>
